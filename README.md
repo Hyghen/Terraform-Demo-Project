@@ -15,10 +15,12 @@ GitHub Repo: https://github.com/Hyghen/Terraform-Demo-Project
 
 ## ✅ Step-by-Step explanation of what i have done 
 
+
 ### 1️⃣ Initial Setup
 
 - Installed Docker, Git, and Terraform on a fresh RHEL 9 Virtual Machine.
 - Verified Docker is running and Terraform is installed.
+
 
 ### 2️⃣ GitHub Repository
 
@@ -27,6 +29,7 @@ GitHub Repo: https://github.com/Hyghen/Terraform-Demo-Project
 
   -- git clone https://github.com/Hyghen/Terraform-Demo-Project.git
   -- cd Terraform-Demo-Project
+
 
 3️⃣ Terraform Configuration
 
@@ -38,19 +41,24 @@ Defined:
 A Docker image resource for nginx.
 A Docker container that maps port 8080 to 80.
 
+
 4️⃣ Terraform Execution Commands
 
 terraform init        # Initialize the working directory
 
 <img width="1166" height="432" alt="Screenshot 2025-08-07 123256" src="https://github.com/user-attachments/assets/0fb233bf-e8f7-4673-a62f-7df54f94e451" />
 
+
+
 -- terraform plan        # See the execution plan
 
 -- terraform apply       # Create the container
 
+
 -- terraform state list  # Check created resources
 
 <img width="792" height="110" alt="Screenshot 2025-08-07 124430" src="https://github.com/user-attachments/assets/7a087e64-5b8e-451f-a1e8-5ae49d75e8e3" />
+
 
 
 
@@ -59,9 +67,10 @@ terraform init        # Initialize the working directory
 <img width="1702" height="261" alt="Screenshot 2025-08-07 124547" src="https://github.com/user-attachments/assets/d2f382de-1ca8-44e2-bdd8-588a22637d9f" />
 
 
+
 🌐 Test the Deployment
 
--- After applying, accessed the container in browser:
+-- After applying the changes, accessed the container in browser:
 -- http://192.168.1.8:8080
 
 It showed the nginx welcome page, confirming successful deployment.
