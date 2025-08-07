@@ -86,7 +86,9 @@ It showed the nginx welcome page, confirming successful deployment.
 💡 What I Learned
 
 -- How to use Terraform Docker Provider.
+
 -- Full cycle: init, plan, apply, state, and destroy.
+
 -- Infrastructure as Code (IaC) in practice with Docker.
 
 
