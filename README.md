@@ -44,7 +44,8 @@ A Docker container that maps port 8080 to 80.
 
 4️⃣ Terraform Execution Commands
 
-terraform init        # Initialize the working directory
+
+-- terraform init        # Initialize the working directory
 
 <img width="1166" height="432" alt="Screenshot 2025-08-07 123256" src="https://github.com/user-attachments/assets/0fb233bf-e8f7-4673-a62f-7df54f94e451" />
 
@@ -73,14 +74,13 @@ terraform init        # Initialize the working directory
 -- After applying the changes, accessed the container in browser:
 -- http://192.168.1.8:8080
 
+
 It showed the nginx welcome page, confirming successful deployment.
+
+
 
 <img width="1116" height="393" alt="Screenshot 2025-08-07 124102" src="https://github.com/user-attachments/assets/e82ed510-3920-43bc-a98d-7afc7fbad2b7" />
 
-
-📂 Files in This Project
-
--- main.tf – Terraform configuration to pull the image and run the container.
 
 
 💡 What I Learned
@@ -91,5 +91,7 @@ It showed the nginx welcome page, confirming successful deployment.
 
 
 🔗 Author
+
 Chitransh Jangid
+
 Github Profile:  https://www.github.com/Hyghen
